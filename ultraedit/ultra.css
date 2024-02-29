@@ -1,0 +1,148 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img img {
+    height: 60px;
+}
+
+nav {
+    display: flex;
+}
+
+.list ul {
+    gap: 30px;
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+}
+
+.list ul li {
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    text-align: center;
+    margin: 44px;
+}
+
+.h1 {
+    font-size: 48px;
+    margin: 30px;
+}
+
+.h3 {
+    font-size: 24px;
+    margin: 44px;
+}
+
+.button {
+    padding: 12px 24px;
+    background-color: #00b6d1;
+    margin: -7px;
+    border-radius: 12px;
+    border: none;
+    font-weight: bold;
+    color: #ffffff
+}
+
+.ultimg img {
+    height: 70px;
+}
+
+.sec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px
+}
+
+.due {
+    font-size: 22px;
+}
+
+.hf {
+    font-size: 14px;
+}
+
+.box {
+    margin: 45px;
+    background-color: #f9f9f9;
+    height: 140px;
+    width: 300px;
+    text-align: center;
+}
+
+.english {
+    font-size: 25px;
+    padding: 12px;
+}
+
+.englis {
+    font-size: 25px;
+    padding: 12px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.blue {
+    border-radius: 9px;
+    padding: 6px;
+    border: none;
+    background-color: #00b6d1;
+    font-weight: bold;
+    color: #ffffff
+}
+
+.green {
+    border-radius: 9px;
+    padding: 6px;
+    background-color: #5cb85c;
+    border: none;
+    font-weight: bold;
+    color: #ffffff
+}
+
+.sec3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.blue a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.green a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body {
+    font-family: 'Segoe UI';
+}
+
+.box .english {
+    font-weight: 600;
+}
+
+.type {
+    margin-bottom: 12px;
+    font-size: 12px;
+}

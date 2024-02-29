@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--Total Width = Width + Left Padding + Right Padding + Left Border + Right Border + Left Margin + Right Margin
+Total Height = Height + Top Padding + Bottom Padding + Top Border + Bottom Border + Top Margin + Bottom Margin-->
+
+<!--"box-sizing:border-box" it include the size of border,content as well as padding but it exclude the margin -->
+<!-- height is my border and padding-->
+<style>
+    *{
+        margin : 0;
+        padding : 0;
+    }
+
+    .box{
+        background-color: blueviolet;
+    }
+    .box1{
+        padding:30px;
+        margin:13px;
+        color:hotpink;
+        height:200px;
+        box-sizing:border-box ;
+        margin:30;
+    }
+    .box2{
+        margin:25;
+        color: blue;
+    }
+
+</style>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="box box1"> this is a content</div>
+    <div class="box box2">this is a second content</div>
+</body>
+</html>

@@ -1,0 +1,143 @@
+
+html,body{
+    overflow-x: hidden;
+    }
+header{
+    padding: 12px;
+    width:100%;
+    position: sticky;
+    top:0px;
+    background-color:#B1C9EF;
+}
+.list ul li a{
+   
+    text-decoration: none;
+}
+.valialogo img{
+    width:190px;
+}
+.list ul li a{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+div ul {
+display: flex;
+justify-content:flex-end ;
+list-style: none;
+gap:46px;
+}
+
+.valiaimg img{
+    border-radius: 12px;
+    margin:12px;
+width: auto;
+height: auto;
+
+}
+.para p{
+    font-weight: 600;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    color: #000d78!important;
+    line-height: 1.7em;
+    text-align: center;
+}
+
+.awards img{
+    width:600px;
+}
+.history{
+    Margin:45px;
+    background-color: #9fbedf;
+    opacity:0.6;
+    
+    text-align: center;
+    padding: 6px;
+}
+.history h3{
+    font-weight: 800;
+    font-size: 24px;
+    color: #f25b3a!important;
+    line-height: 1.8em;
+}
+.icons {
+    margin-top: 150px;
+    padding: 12px;
+    background-color: #B1C9EF;
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+}
+.main{
+    display: flex;
+    
+}
+.box{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 70px;
+}
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 70px;
+}
+h2{
+    padding-top: 18px;
+    padding-left: 18px;
+    font-size: 30px;
+    color:#000d78;
+}
+.msg_hist{
+    font-size: 28px;
+    padding: 60px;
+    color:aliceblue
+}
+ .presimg{
+    padding:12px;
+   
+}
+.section{
+    background-color: #9fbedf;
+}
+.awards{
+    display: flex;
+    justify-content: center;
+}
+.avd img{
+    width: 400px;
+    height: 300px;
+    transition: width 2s;
+}
+.avd img:hover {
+    width: 500px;
+}
+.ekatva img{
+    width: 400px;
+    height: 300px;
+    transition: width 2s;
+}
+.ekatva img:hover {
+    width: 500px;
+}
+.nss img{
+    width: 500px;
+    height: 300px;
+    transition: width 2s;
+}
+.nss img:hover {
+    width: 600px;
+}
+.list ul li a{
+    color: #000d78;
+   
+}

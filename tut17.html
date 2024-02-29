@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+
+/* universal selector */
+    * {
+    text-align:center;
+      }
+    
+      /* element selector 
+       it is not recomended as the same tag can be used multiple times in the document.
+       So, overlapping rules can occur in the stylesheet */
+      
+      p{
+        color:blueviolet;
+        background-color: aqua;
+      }
+      
+      /* id selector */
+      #p{
+        background-color: rgb(6, 6, 24);
+        color:cadetblue;
+      }
+
+      /* class selector */
+      .aamer{
+        background-color: chartreuse;
+        color: rgb(42, 77, 8);
+      }
+
+      /* child selectoer */
+      span > p {
+        color:deeppink;
+        background-color: powderblue;
+      }
+
+      /* decendent selector */
+      div p {
+
+       background-color: rgb(233, 22, 40);
+       color: rgb(19, 18, 18);
+      }
+
+      /*pseudo selector */
+      a:visited {
+        color: blueviolet;
+      }
+      a:link{
+        color:darkgreen
+      }
+      a:active {
+        background-color: rgb(3, 133, 89);
+      }
+      a:hover{
+        background-color:rgb(190, 235, 235);
+      }
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>This is a heading for CSS selector</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non!</p>
+<!--........................................................-->
+    <div>
+        <h1>This is a heading for CSS selector</h1>
+        <p id="p" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex.</p>
+    </div>
+    
+    <p id="p">Lorem ipsum dolor sit amet consectetur.</p>
+<!--........................................................-->
+<div > 
+    <p class="aamer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam corrupti consequatur vel modi quibusdam tempore?</p>
+</div>
+<!--........................................................-->
+<div>
+    <article> 
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+    </article>
+</div>
+<!-- ......................................................-->
+    <span>
+        i am a boy 
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing.
+        </p>
+    </span>
+
+<div>
+    <a href="https://www.google.com">Go to Google</a>
+    <div>
+    <a href="https://www.facebook2.com">Go to Facebook</a>
+    </div>
+</div>
+
+</body>
+</html>
